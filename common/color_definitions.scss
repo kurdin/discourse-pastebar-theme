@@ -22,8 +22,6 @@ $primary-low-mid: #d6d6d6 !default;
 $primary-medium: #5d5d5d !default;
 $primary-high: #333333 !default;
 $public_image_path: "https://sjc3.discourse-cdn.com/business7/images";
-@import "common/foundation/variables";
-@import "common/foundation/mixins";
 $banner: unquote(
   "https://aws1.discourse-cdn.com/business7/uploads/figma3/original/2X/a/a07141646f7888df129d3a664f99728a1caa44fc.svg"
 );
