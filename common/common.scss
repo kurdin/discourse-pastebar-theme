@@ -1,0 +1,88 @@
+body {
+    .topic-avatar {
+        padding-top: 8px;
+        width: 50px;
+    }
+    #main-outlet-wrapper {
+        margin-bottom: 1.5rem;
+    }
+    #d-sidebar.sidebar-container {
+        border-right: 0;
+    }
+    #d-sidebar .sidebar-sections {
+        padding: 0 0 1em 0;
+    }
+    #main-outlet {
+        padding: 0 0.65rem 0 0.65rem;
+    }
+    #sidebar-section-content-community.sidebar-section-content {
+        row-gap: 0.75rem;
+    }
+    .d-header-wrap {
+        margin-bottom: 1.5rem;
+    }
+    header.d-header {
+        padding: 0.65rem 0;
+        height: auto;
+        background-color: var(--d-header-background);
+        border-bottom: 1px solid transparent; 
+        border-color: var(--d-header-border); 
+        padding-left: 4px;
+        box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 2px;
+        opacity: 1;
+    }
+    #sidebar-section-content-categories {
+        margin-top: 0.75rem;
+        margin-left: 1.75rem;
+    }
+    .btn-primary {
+        border-radius: 6px!important;
+    }
+    ul.icons.d-header-icons > li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0.5rem;
+    }
+    .floating-search-input .searching {
+        position: absolute;
+        right: 10px;
+    }
+    .sidebar-hamburger-dropdown .sidebar-sections {
+        padding-top: 0.1rem;
+        margin-bottom: 1rem;
+    }
+    .sidebar-footer-wrapper {
+        margin-top: 0;
+    }
+    .custom-search-banner {
+        background: var(--search-header);
+        border-radius: 8px;
+        padding: 1rem;
+        padding-bottom: 0;
+        padding-top: 0;
+        .custom-search-banner-wrap {
+            padding: 2em 0 2rem;
+                margin: 0 0 1rem auto;
+        }
+    }
+}
+
+body:not(.landing-page) #main-outlet .list-container div#list-area{
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: 2rem 1.5rem;
+    border: 1px solid var(--primary-200);
+}
+
+
+body.archetype-regular #main-outlet>.regular {
+    border-radius: 8px;
+    margin-top: 0;
+}
+
+
+body.has-sidebar-page #main-outlet-wrapper {
+    gap: 1rem!important;
+    padding: 0 1rem 1rem 1rem;
+}

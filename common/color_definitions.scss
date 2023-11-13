@@ -1,0 +1,7 @@
+:root {
+  --secondary-very-high: #{dark-light-choose(#f8fafc, #0d1623)};
+  --search-header: #{dark-light-choose(#d8e1ea, #233545)};
+  --d-header-border: #{dark-light-choose(rgb(233, 236, 239), #080808)};
+  --d-header-background: #{dark-light-choose(rgba(245,245,245,.8), rgba(19,19,19, 0.8))};
+  --d-border-radius: 6px!important;
+}
