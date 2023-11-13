@@ -3,7 +3,14 @@ body {
         padding-top: 8px;
         width: 50px;
     }
-     
+    .category-breadcrumb > li  {
+        .select-kit .select-kit-header:not(.btn) {
+            border-radius: var(--d-input-border-radius);
+            padding-left: 0;
+            padding-right: 0.5rem;
+        }
+        margin-right: 0;
+    }
     #main-outlet-wrapper {
         margin-bottom: 1.5rem;
     }
