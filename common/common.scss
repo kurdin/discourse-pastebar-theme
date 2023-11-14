@@ -1,4 +1,7 @@
 body {
+    .custom-header-links .headerLink a {
+        white-space: nowrap;
+    }
     .categories-and-latest {
         .column.categories {
             margin-right: 0!important;
@@ -45,6 +48,9 @@ body {
         margin-bottom: 1.5rem;
     }
     header.d-header {
+        .title {
+            display: block;
+        }
         padding: 0.65rem 0;
         height: auto;
         background-color: var(--d-header-background);
