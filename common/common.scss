@@ -1,4 +1,10 @@
 body {
+    .categories-and-latest {
+        .column.categories {
+            margin-right: 0!important;
+        }
+        flex-direction: row-reverse;
+    }
     .discourse-tags {
         gap: 4px;
     }
