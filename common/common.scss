@@ -1,4 +1,11 @@
 body {
+    .custom-header-links {
+        margin: 0;
+    }
+    .d-header #site-logo {
+        height: 2.35rem;
+    }
+      
     .custom-header-links .headerLink a {
         white-space: nowrap;
     }
