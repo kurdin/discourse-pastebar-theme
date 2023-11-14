@@ -1,4 +1,10 @@
 body {
+    .discourse-tags {
+        gap: 4px;
+    }
+    .discourse-tag.box {
+        border-radius: 4px;
+    }
     .topic-avatar {
         padding-top: 8px;
         width: 50px;
