@@ -1,9 +1,14 @@
 body {
     .custom-header-links {
         margin: 0;
+        margin-right: 1rem;
     }
     .d-header #site-logo {
         height: 2.35rem;
+    }
+
+    .d-header .header-buttons {
+        margin-top: 0;
     }
       
     .custom-header-links .headerLink a {
